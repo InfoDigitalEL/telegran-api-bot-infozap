@@ -1,0 +1,15 @@
+{
+  "name": "@infozap/telegran-api-bot-infozap",
+  "version": "1.0.0",
+  "description": "Uma biblioteca para ciração de bot com o telegram desenvolvido pelo Infozap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Api, telegram, bot"],
+  "author": "Infozap - Diego Prates",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
