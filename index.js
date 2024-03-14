@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-class TelegramBot {
+class TelegramApiBot {
     constructor(token) {
         this.token = token;
         this.baseURL = `https://api.telegram.org/bot${token}`;
@@ -154,4 +154,4 @@ async setWebhook(url) {
     }
 }
 
-module.exports = TelegramBot;
+module.exports = TelegramApiBot;
