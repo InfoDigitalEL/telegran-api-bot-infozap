@@ -15,10 +15,10 @@ Como Usar
 Aqui está um exemplo básico de como usar esta biblioteca para enviar uma mensagem usando um bot do Telegram:
 
 
-const TelegramBot = require('@infozap/telegram-api-bot');
+const TelegramApiBot = require('@infozap/telegram-api-bot');
 
 // Substitua 'TOKEN' pelo token do seu bot
-const bot = new TelegramBot('SEU_TOKEN_DO_BOT');
+const bot = new TelegramApiBot('SEU_TOKEN_DO_BOT');
 
 // Enviar uma mensagem
 bot.sendMessage('ID_DO_CHAT', 'Olá, mundo!')
